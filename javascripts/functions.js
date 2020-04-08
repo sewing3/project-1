@@ -11,14 +11,9 @@ function arrAvg(array) {
 }
 
 function arrMax(array) {
-  return Math.max(array);
+  var largest = 0;
+  array.forEach(function(elem) {
+    if (largest < elem) largest = elem;
+  });
+  return largest;
 }
-
-let temps = [31.9, 31.3, 42.4, 42.4, 60.8];
-let sum = 0,
-  average;
-for (var i = 0; i < temps.length; i++) {
-  sum += temps[i];
-}
-average = sum / temps.length;
-console.log(average);
