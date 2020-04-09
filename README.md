@@ -10,3 +10,7 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - How the various programs interact with each other
+
+<a href="https://pages.uoregon.edu/sewing3/281/">sewing3's 281 website</a>
+
+<img src="images/octocat.jpg" alt="ironoctocat" id="img1" />
